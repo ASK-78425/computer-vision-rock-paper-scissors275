@@ -38,3 +38,11 @@ def get_winner(computer_choice, user_choice):
         print(f"Computer choice: {computer_choice}")
         print(f"Your choice: {user_choice}")
         print("You lost")
+
+#%%
+# Create function (play()) to simulate the game, amalgamating all prior functions
+def play():
+    '''This function runs a game of RPS and displays the winner (computer or user)'''
+    play_user_choice = get_user_choice()
+    play_computer_choice = get_computer_choice()
+    get_winner(play_computer_choice, play_user_choice)
