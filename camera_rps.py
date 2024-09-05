@@ -66,3 +66,5 @@ def get_prediction():
      print("Nothing, try again!")
      get_prediction()
   return key_index
+
+# %%
